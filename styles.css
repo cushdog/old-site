@@ -5,7 +5,15 @@
     text-align: justify;
     width: 400;
 }
-
+div {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
 .img-with-text img {
     display: block;
     margin: 0 auto;
@@ -21,7 +29,7 @@ p {
 h1 {
     color: rgb(0, 50, 73);
     font-family: Alata, sans-serif;
-    animation: ani1 5s;
+    animation: ani1 2s;
 }
 
 @keyframes ani1 {
