@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 
-.img-with-text {
+/* .img-with-text {
     text-align: justify;
     width: 400;
 }
@@ -29,7 +29,7 @@ body {
 .img-with-text img {
     display: block;
     margin: 0 auto;
-}
+} */
 
 /* .image-text {
     text-align: center;
@@ -45,12 +45,16 @@ body {
     transform: translate(-50%,-50%);
 }  
 
-img {
+figure img {
     border-radius: 50%;
     animation: ani1 2s;
 }
 
-h1 {
+figcaption {
+    text-align: center;
+}
+
+figcaption h1 {
     color: rgb(0, 50, 73);
     font-family: Alata, sans-serif;
     animation: ani1 2s;
