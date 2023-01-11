@@ -1,6 +1,8 @@
 @font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
 @font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
-
+body {
+    background-color: rgb(176, 226, 152);
+}
 .img-with-text {
     text-align: justify;
     width: 400;
@@ -27,6 +29,7 @@ div {
 
 img {
     border-radius: 50%;
+    animation: ani1 2s;
 }
 
 h1 {
