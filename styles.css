@@ -2,7 +2,7 @@
 @font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
 
 .img-with-text {
-    text-align: center;
+    text-align: justify;
     width: 400;
 }
 
@@ -20,7 +20,6 @@ div {
     display: block;
     margin: 0 auto;
 }
-
 img {
     border-radius: 50%;
 }
