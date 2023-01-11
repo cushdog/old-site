@@ -6,11 +6,11 @@ p {
     color: red;
 }
 
-h2 {
+h1 {
     color: rgb(0, 50, 73);
 }
 
 @font-face {
-    font-family: TempestaSevenCondensed;
+    font-family: Typold-Book500;
     src: url("fonts/Typold-Book500.otf") /* EOT file for IE */
 }
