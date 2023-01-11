@@ -8,5 +8,9 @@ p {
 
 h2 {
     color: rgb(0, 50, 73);
-    font-family: Arial;
+}
+
+@font-face {
+    font-family: TempestaSevenCondensed;
+    src: url("fonts/Typold-Book500.otf") /* EOT file for IE */
 }
