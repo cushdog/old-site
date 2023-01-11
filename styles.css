@@ -1,8 +1,10 @@
 @font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
 @font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
+
 body {
     background-color: rgb(176, 226, 152);
 }
+
 .img-with-text {
     text-align: justify;
     width: 400;
@@ -17,7 +19,7 @@ body {
     text-align: center;
 } */
 
-div {
+.img-with-text {
     padding: 15px;
     position: absolute;
     top: 50%;
@@ -42,3 +44,129 @@ h1 {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+.image-github {
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/25/25231.png?w=1380&t=st=1673463174~exp=1673463774~hmac=4c2d2504e9a84ddd411b6109a49b42ea3c2c2af29bc6d227ba51ad0e97d1e83b);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-github p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    font-family: Alata, sans-serif;
+    color: white;
+}
+
+.image-github:hover {
+    border-radius:50%;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image-github:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.image-linkedin {
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-noire.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-linkedin p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    font-family: Alata, sans-serif;
+    color: white;
+}
+
+.image-linkedin:hover {
+    border-radius:50%;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image-linkedin:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.image-email {
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://icon-library.com/images/black-and-white-email-icon/black-and-white-email-icon-27.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-email p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    font-family: Alata, sans-serif;
+    color: white;
+}
+
+.image-email:hover {
+    border-radius:50%;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image-email:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.image-resume {
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/My\ project.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-resume p {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    font-family: Alata, sans-serif;
+    color: white;
+}
+
+.image-resume:hover {
+    border-radius:50%;
+    box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image-resume:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
