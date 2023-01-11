@@ -21,12 +21,10 @@ p {
 h1 {
     color: rgb(0, 50, 73);
     font-family: Alata, sans-serif;
-    animation: ani1 24s ease-out forwards;
+    animation: ani1 5s;
 }
 
 @keyframes ani1 {
-    100%{
-        transform: scale(1.55);
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
