@@ -1,7 +1,7 @@
 @font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
 @font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
 
-.img-with-text {
+/* .img-with-text {
     text-align: center;
     width: 400;
 }
@@ -19,7 +19,8 @@ div {
 .img-with-text img {
     display: block;
     margin: 0 auto;
-}
+} */
+
 img {
     border-radius: 50%;
 }
