@@ -5,6 +5,7 @@
     text-align: justify;
     width: 400;
 }
+
 div {
     padding: 15px;
     position: absolute;
@@ -13,7 +14,8 @@ div {
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-  }  
+}  
+
 .img-with-text img {
     display: block;
     margin: 0 auto;
