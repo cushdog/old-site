@@ -1,6 +1,15 @@
 @font-face { font-family: Alata; src: url('fonts/Alata-Regular.ttf'); } 
 @font-face { font-family: Alata; font-weight: bold; src: url('fonts/Alata-Regular.ttf');}
 
+.img-with-text {
+    text-align: justify;
+    width: 400;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
 img {
     border-radius: 50%;
 }
